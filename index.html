@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+
+    <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div class="main">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#skiils">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <div class="two-parts">
+
+            <div class="info">
+                <div class="info-data">
+                    <img src="./pics/me.jpg" alt="" />
+                    <h3>Abhishek Atnure</h3>
+                    <h3>Full stack developer</h3>
+                    <div class="info-contact">
+                        <a>resume</a>
+                        <a href="https://www.linkedin.com/in/abhishek-atnure-16a333129/" target="blank">LinkedIn</a>
+                    </div>
+
+                    <h3 id="funfact">Fun fact! <span>I have been programming for <span id="time-container">0</span>
+                            seconds
+                            !</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="About-me" id="about-me">
+
+                    <h3>About</h3>
+                    <p>
+                        HEY👋! I am <span>Abhishek Atnure</span>, a self taught full stack developer who builds
+                        full stack, front-end and back-end web applications
+                        using various technologies based on javascript (you can call me javascript developer!).
+                    </p>
+                    <br>
+
+                    <p>
+                        you can always find me building new things and continously learning improving my skills and
+                        work, in spare time you can
+                        find me watching movies.
+                        When i started software development, I fell in love with development and haven't looked
+                        back. In my
+                        spare time you can find me watching movies.
+                    </p>
+                    <br>
+                    <p>
+                        Dont hesitate to <a id="contact-text" href="#contact-me">Contact me</a> if you want to build web
+                        apps and also if
+                        you want a
+                        movie
+                        suggestion
+                        !.</p>
+
+                </div>
+
+                <div class="skills" id="skills">
+
+                    <h3>Skills</h3>
+
+                    <span>Javascript</span>
+                    <span>React js</span>
+                    <span>Redux</span>
+                    <span>Node js</span>
+                    <span>Express js</span>
+                    <span>SQL</span>
+                    <span>postgreSql</span>
+                    <span>Afram Web VR</span>
+                    <span>HTML/CSS</span>
+                    <span>npm</span>
+                    <span>GitHub</span>
+                    <span>Bash Shell</span>
+                    <span>Shell Scripting</span>
+                    <span>Postman</span>
+                    <span>Netlify</span>
+                    <span>Heroku</span>
+                </div>
+
+                <div class="projects" id="projects">
+                    <h3>Projects</h3>
+                    <div class="project-sub">
+                        <a src="https://reddit-minimal.netlify.app/"> <img src="./pics/reddit-clone.png"
+                                alt="reddit"></a>
+                        <div class="project-buttons">
+                            <a href="https://reddit-minimal.netlify.app/" target="blank">Live</a>
+                            <a href="https://github.com/abhishek-atnure/redit-client" target="blank">Code</a>
+                            <a id="modalBtn1">About</a>
+
+                            <div id="myModal1" class="modal">
+
+
+                                <div class="modal-content">
+                                    <span class="close 1">&times;</span>
+                                    <h3>Reddit minimal client</h3>
+                                    <h4>Description</h4>
+                                    <p>For this project, i have build an application for Reddit using everything
+                                        i have learned, including React. Reddit is a website where people share
+                                        links to articles, media and other things on the web. The Reddit API provides
+                                        data
+                                        which is integrated into my application. The application will allow users to
+                                        view and search posts according to subreddits provided by the API.
+                                    </p>
+                                    <h4>Tech used </h4>
+                                    <p>React js, HTML/CSS, git &github, javascript, npm</p>
+
+                                    <h4>Challenges and things to improve</h4>
+                                    <p>For this project, challange was to use Reddit JSON API. There is no maintained
+                                        documentation but the API is simple enough to use. things to improve are
+                                        to add search functionality for specific post and to display users comments
+                                        posted by subreddit.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="project-sub">
+                        <a src="https://no-one-on-earth.netlify.app/"> <img src="/pics/budget.png" alt="budget"></a>
+                        <div class="project-buttons">
+                            <a href="https://no-one-on-earth.netlify.app/" target="blank">Live</a>
+                            <a href="https://github.com/abhishek-atnure/budget-tracker" target="blank">Code</a>
+                            <a id="modalBtn2">About</a>
+
+                            <div id="myModal2" class="modal">
+
+
+                                <div class="modal-content">
+                                    <span class="close 2">&times;</span>
+                                    <h3>Budget Tracker</h3>
+                                    <h4>Description</h4>
+                                    <p>This project—a budgeting and expense tracking app.
+                                        The app allows you to set budgets for various categories, such as food and
+                                        transportation,
+                                        and track transactions in those categories. It then sums your spending
+                                        in each category to calculate the amount of money that remains to be spent.
+                                    </p>
+                                    <h4>Tech used </h4>
+                                    <p>React js, Redux toolkit, javascript, npm</p>
+
+                                    <h4>Challenges and things to improve</h4>
+                                    <p>things to improve are that to introduce Database integrity
+                                        and authentication/ authorization to save the budgets and transactions
+                                        made by users so they can't miss the core functionality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-sub">
+                        <a src="https://land-of-movies.netlify.app/"> <img src="./pics/movies.png" alt="movies"></a>
+                        <div class="project-buttons">
+                            <a href="https://land-of-movies.netlify.app/" target="blank">Live</a>
+                            <a href="https://github.com/abhishek-atnure/Favorite-movies" target="blank">Code</a>
+                            <a id="modalBtn3">About</a>
+                            <div id="myModal3" class="modal">
+
+
+                                <div class="modal-content">
+                                    <span class="close 3">&times;</span>
+                                    <h3>Favorite movie saver</h3>
+                                    <h4>Description</h4>
+                                    <p> This project allows users to search any movie which is featured on
+                                        IMDB. the user can add their favorite movies to favorite list which
+                                        stored on localStorage and able to retirve that list. the API i used
+                                        is OMDB.
+                                    </p>
+                                    <h4>Tech used </h4>
+                                    <p>React js, HTML/CSS, git &github, javascript, npm,</p>
+
+                                    <h4>Challenges and things to improve</h4>
+                                    <p>For this project, challange was not that much as it was simple api.
+                                        the things to improve are that user should be able to add movies
+                                        to database and can retrive and save the movies also by genre and mood.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact" id="contact-me">
+                    <h3>Contact me</h3>
+                    <h4> Have an interesting project? I would love to hear about it!</h4>
+                    <br>
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/abhishek-atnure-16a333129/" target="blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a><i id="email-icon" class="fas fa-envelope-square"></i></a>
+                        <a href="https://github.com/abhishek-atnure" target="blank"><i class="fab fa-github"></i></a>
+                        <span id="email"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</div>
+</body>
+
+</html>

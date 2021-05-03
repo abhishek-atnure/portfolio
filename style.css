@@ -1,0 +1,444 @@
+body {
+  background: #25242b;
+  font-family: "Inconsolata", monospace;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 6;
+  background: white;
+  border: 2px solid black;
+  border-style: double;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar li {
+  font-weight: 900;
+  margin: 9px 15px;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 92%);
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px 25px;
+  color: white;
+  background: #52578e;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar li:hover {
+  box-shadow: -7px 7px 0px 0 rgb(0 0 0 / 92%);
+  /* background: #8336e7; */
+  color: white;
+}
+
+#navbar li a:hover {
+  /* background: #8336e7; */
+  color: white;
+}
+/*-----------------------------------------------------*/
+
+.two-parts {
+  display: flex;
+}
+
+.info {
+  width: 30%;
+  height: 100vh;
+  /*object-fit: cover;*/
+  /* background-image: url(./cropped.jpg); */
+  /* background: #25242b; */
+  /* background-repeat: repeat;
+  /* background: #52578e; */
+  /* background-size: cover; */
+  background: black;
+  position: fixed;
+  left: 0;
+  color: white;
+}
+
+.info-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 230px;
+}
+
+#time-container {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.info-data h3 {
+  font-size: 25px;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.info-contact a {
+  text-decoration: none;
+  font-weight: 900;
+  margin: 9px 20px;
+  box-shadow: -4px 4px 0px 0 rgb(255 255 0 / 92%);
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px 25px;
+  color: white;
+  background: #52578e;
+}
+
+#funfact {
+  margin: 40px 30px 30px 70px;
+  /* text-decoration: underline dotted yellow; */
+  text-underline-position: under;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.info-data img {
+  height: 100px;
+  width: 100px;
+
+  border-radius: 50%;
+}
+
+/*-----------------------------------------------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* align-items: center; */
+  width: 70%;
+  height: 100vh;
+  position: relative;
+  right: -450px;
+}
+
+.About-me {
+  margin: 70px 80px;
+}
+
+#about-me h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 15px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+#about-me p {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: "Inconsolata", monospace;
+}
+
+#about-me span {
+  border-bottom: 2px solid yellow;
+}
+
+#about-me a {
+  text-decoration: none;
+  border-bottom: 2px solid yellow;
+}
+
+#contact-text {
+  text-decoration: none;
+  color: white;
+}
+
+/*--------------------------------------------*/
+.skills {
+  margin: 70px 80px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skills h3 {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.skills span {
+  font-weight: 900;
+  margin: 9px 15px;
+
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px 25px;
+  color: white;
+  background: #52578e;
+}
+
+/*--------------------------------*/
+
+.projects {
+  margin: 70px 80px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.projects h3 {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.project-sub {
+  transition: 0.3s;
+  width: 40%;
+  margin: 20px 20px;
+
+  background: #52578e;
+}
+.project-sub img {
+  object-fit: content;
+  width: 100%;
+  border-radius: 5px;
+  image-rendering: pixelated;
+  height: 200px;
+}
+
+.project-buttons {
+  margin: 30px 0;
+}
+.project-sub .project-buttons a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+  margin: 0 15px;
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 5px 25px;
+  color: white;
+  background: black;
+}
+
+/*------------------------------------------------*/
+
+.contact {
+  margin: 60px 80px;
+}
+
+.contact h3 {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.contact h4 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.contact-icons a i {
+  font-size: 40px;
+  width: 40px;
+  margin: 0 30px;
+}
+
+.contact-icons {
+  margin-bottom: 70px;
+}
+
+.contact-icons a {
+  text-decoration: none;
+}
+
+/*------------------*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 60vh;
+  color: black;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal .modal-content h3 {
+  margin: 20px 500px;
+  font-weight: 800;
+}
+
+.modal h4 {
+  text-decoration: underline;
+  margin: 20px 60px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal p {
+  font-size: 18px;
+  margin: 10px 60px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+}
+
+#email {
+  font-size: 18px;
+
+  font-family: "Inconsolata", monospace;
+}
+
+/*------------------------------mobile version----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: black;
+  }
+  #navbar {
+    display: none;
+  }
+
+  .info {
+    width: 100%;
+    height: 50vh;
+    margin: 40px auto;
+    position: initial;
+    color: white;
+  }
+
+  .info-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: initial;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: initial;
+  }
+
+  .About-me {
+    margin: 20px 30px;
+    background: #25242b;
+    padding: 10px;
+    word-spacing: 2px;
+    border-radius: 5px;
+  }
+
+  #about-me p {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-family: "Inconsolata", monospace;
+  }
+
+  .skills {
+    margin: 20px 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .projects {
+    margin: 20px 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .project-sub {
+    transition: 0.3s;
+    width: 100%;
+    /*margin: 20px 20px;*/
+    background: #52578e;
+  }
+
+  .contact {
+    margin: 30px 40px;
+  }
+
+  .two-parts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-buttons {
+    margin: 20px 10px 20px 10px;
+  }
+
+  .project-sub .project-buttons a {
+    margin: 0 10px;
+    padding: 5px 12px;
+  }
+
+  .contact-icons a i {
+    margin: 0 20px;
+  }
+
+  #email {
+    position: relative;
+    top: 50px;
+  }
+
+  .modal-content {
+    overflow: scroll;
+  }
+  .modal-content p {
+    margin: 10px 30px;
+  }
+  .modal .modal-content h3 {
+    margin: 20px 0px;
+  }
+
+  .modal .modal-content h4 {
+    margin: 20px 30px;
+  }
+}
