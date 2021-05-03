@@ -411,12 +411,13 @@ nav ul {
   }
 
   .project-buttons {
+    display: flex;
     margin: 20px 10px 20px 10px;
   }
 
   .project-sub .project-buttons a {
-    margin: 0 08px;
     padding: 5px 12px;
+    margin: 0 8px;
   }
 
   .contact-icons a i {
