@@ -444,10 +444,9 @@ nav ul {
   }
 
   .modal p {
-    font-size: 18px;
-    margin: 10px 60px;
+
     font-family: -webkit-pictograph;
-    font-weight: 600;
+    font-weight: 300;
 
   }
 }
