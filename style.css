@@ -226,7 +226,7 @@ nav ul {
   font-family: "Inconsolata", monospace;
   box-sizing: border-box;
   border: 1px solid black;
-  padding: 5px 25px;
+  padding: 5px 15px;
   color: white;
   background: black;
 }
@@ -376,10 +376,10 @@ nav ul {
 
   #about-me p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 0px;
     line-height: 20px;
-    font-family: "Inconsolata", monospace;
+    font-family: -webkit-pictograph;
   }
 
   .skills {
