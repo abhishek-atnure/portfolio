@@ -442,4 +442,12 @@ nav ul {
   .modal .modal-content h4 {
     margin: 20px 30px;
   }
+
+  .modal p {
+    font-size: 18px;
+    margin: 10px 60px;
+    font-family: -webkit-pictograph;
+    font-weight: 600;
+
+  }
 }
