@@ -108,7 +108,7 @@ nav ul {
 .info-data img {
   height: 100px;
   width: 100px;
-
+  object-fit: cover;
   border-radius: 50%;
 }
 
