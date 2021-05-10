@@ -211,7 +211,7 @@ nav ul {
   object-fit: content;
   width: 100%;
   border-radius: 5px;
-  image-rendering: pixelated;
+  image-rendering: optimizeQuality;
   height: 200px;
 }
 
@@ -226,7 +226,7 @@ nav ul {
   font-family: "Inconsolata", monospace;
   box-sizing: border-box;
   border: 1px solid black;
-  padding: 5px 15px;
+  padding: 5px 13px;
   color: white;
   background: black;
 }
