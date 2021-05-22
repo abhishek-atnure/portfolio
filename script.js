@@ -2,18 +2,21 @@ const modal1 = document.getElementById("myModal1");
 const modal2 = document.getElementById("myModal2");
 const modal3 = document.getElementById("myModal3");
 const modal4 = document.getElementById("myModal4");
+const modal5 = document.getElementById("myModal5");
 
 // Get the button that opens the modal
 const btn = document.getElementById("modalBtn1");
 const btn2 = document.getElementById("modalBtn2");
 const btn3 = document.getElementById("modalBtn3");
 const btn4 = document.getElementById("modalBtn4");
+const btn5 = document.getElementById("modalBtn5");
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close 1")[0];
 const span2 = document.getElementsByClassName("close 2")[0];
 const span3 = document.getElementsByClassName("close 3")[0];
 const span4 = document.getElementsByClassName("close 4")[0];
+const span5 = document.getElementsByClassName("close 5")[0];
 
 // When the user clicks the button, open the modal
 span.onclick = function (e) {
@@ -36,6 +39,11 @@ span4.onclick = function (e) {
   modal4.style.display = "none";
 };
 
+span5.onclick = function (e) {
+  e.preventDefault();
+  modal5.style.display = "none";
+};
+
 btn.addEventListener("click", function (e) {
   e.preventDefault();
   modal1.style.display = "block";
@@ -55,6 +63,11 @@ btn4.addEventListener("click", function (e) {
   e.preventDefault();
   modal4.style.display = "block";
 });
+
+btn5.addEventListener("click", function (e) {
+  e.preventDefault();
+  modal5.style.display = "block";
+});
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modal) {
@@ -62,6 +75,7 @@ window.onclick = function (event) {
     modal2.style.display = "none";
     modal3.style.display = "none";
     modal4.style.display = "none";
+    modal5.style.display = "none";
   }
 };
 
