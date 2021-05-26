@@ -264,6 +264,7 @@ nav ul {
 }
 
 .contact-icons a {
+  color:  white;
   text-decoration: none;
 }
 
@@ -328,6 +329,33 @@ nav ul {
 #email {
   font-size: 18px;
 
+  font-family: "Inconsolata", monospace;
+}
+
+.blogs{
+  margin: 60px 80px;
+}
+
+.blogs h3{
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  font-family: "Inconsolata", monospace;
+}
+
+.blogs ul li{
+  margin: 20px auto;
+}
+
+.blogs ul li a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid yellow;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0;
   font-family: "Inconsolata", monospace;
 }
 
