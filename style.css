@@ -433,6 +433,10 @@ nav ul {
     margin: 30px 40px;
   }
 
+  .blogs {
+    margin: 30px 40px;
+  }
+
   .two-parts {
     display: flex;
     flex-direction: column;
