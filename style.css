@@ -118,7 +118,6 @@ nav ul {
   display: flex;
   flex-direction: column;
   color: white;
-  /* align-items: center; */
   width: 70%;
   height: 100vh;
   position: relative;
@@ -264,7 +263,7 @@ nav ul {
 }
 
 .contact-icons a {
-  color:  white;
+  color: white;
   text-decoration: none;
 }
 
@@ -332,11 +331,11 @@ nav ul {
   font-family: "Inconsolata", monospace;
 }
 
-.blogs{
+.blogs {
   margin: 60px 80px;
 }
 
-.blogs h3{
+.blogs h3 {
   width: 100%;
   font-size: 25px;
   font-weight: 600;
@@ -344,11 +343,11 @@ nav ul {
   font-family: "Inconsolata", monospace;
 }
 
-.blogs ul li{
+.blogs ul li {
   margin: 20px auto;
 }
 
-.blogs ul li a{
+.blogs ul li a {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid yellow;
@@ -476,9 +475,7 @@ nav ul {
   }
 
   .modal p {
-
     font-family: -webkit-pictograph;
     font-weight: 300;
-
   }
 }
